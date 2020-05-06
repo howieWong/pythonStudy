@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6d572a9-dfd0-4bec-8152-8df4c998ccd5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/regex/元字符.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/regex/分组.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threads/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threads/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threads/threads.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threads/单任务.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threads/多任务.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threads/多进程执行顺序.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/regex/匹配单个字符和数字.py" beforeDir="false" afterPath="$PROJECT_DIR$/regex/匹配单个字符和数字.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,8 +43,8 @@
       <recent name="C:\Users\why\PycharmProjects\LearnPython\day1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.permutationAndCombination">
-    <configuration name="匹配单个字符和数字" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.threads">
+    <configuration name="单任务" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="LearnPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -49,11 +52,53 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/regex" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/threads" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/regex/匹配单个字符和数字.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/threads/单任务.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="多任务" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="LearnPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/threads" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/threads/多任务.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="多进程执行顺序" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="LearnPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/threads" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/threads/多进程执行顺序.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -146,7 +191,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="threads" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="LearnPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -154,11 +199,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/threads" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oop/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/threads/threads.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -169,9 +214,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.threads" />
+        <item itemvalue="Python.多进程执行顺序" />
+        <item itemvalue="Python.多任务" />
+        <item itemvalue="Python.单任务" />
         <item itemvalue="Python.permutationAndCombination" />
-        <item itemvalue="Python.匹配单个字符和数字" />
-        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -202,33 +249,33 @@
     </state>
     <state x="778" y="270" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588601981312" />
     <state x="739" y="264" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1587392979481" />
-    <state width="1506" height="314" key="GridCell.Tab.0.bottom" timestamp="1588770401642">
-      <screen x="1920" y="0" width="1549" height="831" />
+    <state width="1877" height="352" key="GridCell.Tab.0.bottom" timestamp="1588781774163">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1506" height="314" key="GridCell.Tab.0.bottom/0.0.1549.831/1920.0.1549.831@1920.0.1549.831" timestamp="1588770401642" />
-    <state width="1877" height="302" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588688396164" />
-    <state width="1877" height="258" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1588596751089" />
+    <state width="1877" height="352" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588781774163" />
+    <state width="1877" height="352" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1588780727281" />
     <state width="1899" height="240" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1587659237793" />
-    <state width="1506" height="314" key="GridCell.Tab.0.center" timestamp="1588770401642">
-      <screen x="1920" y="0" width="1549" height="831" />
+    <state width="1877" height="352" key="GridCell.Tab.0.center" timestamp="1588781774163">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1506" height="314" key="GridCell.Tab.0.center/0.0.1549.831/1920.0.1549.831@1920.0.1549.831" timestamp="1588770401642" />
-    <state width="1877" height="302" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588688396164" />
-    <state width="1877" height="258" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1588596751089" />
+    <state width="1877" height="352" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588781774163" />
+    <state width="1877" height="352" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1588780727281" />
     <state width="1899" height="240" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1587659237793" />
-    <state width="1506" height="314" key="GridCell.Tab.0.left" timestamp="1588770401642">
-      <screen x="1920" y="0" width="1549" height="831" />
+    <state width="1877" height="352" key="GridCell.Tab.0.left" timestamp="1588781774163">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1506" height="314" key="GridCell.Tab.0.left/0.0.1549.831/1920.0.1549.831@1920.0.1549.831" timestamp="1588770401642" />
-    <state width="1877" height="302" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588688396164" />
-    <state width="1877" height="258" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1588596751089" />
+    <state width="1877" height="352" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588781774163" />
+    <state width="1877" height="352" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1588780727281" />
     <state width="1899" height="240" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1587659237793" />
-    <state width="1506" height="314" key="GridCell.Tab.0.right" timestamp="1588770401642">
-      <screen x="1920" y="0" width="1549" height="831" />
+    <state width="1877" height="352" key="GridCell.Tab.0.right" timestamp="1588781774163">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1506" height="314" key="GridCell.Tab.0.right/0.0.1549.831/1920.0.1549.831@1920.0.1549.831" timestamp="1588770401642" />
-    <state width="1877" height="302" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588688396164" />
-    <state width="1877" height="258" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1588596751089" />
+    <state width="1877" height="352" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588781774163" />
+    <state width="1877" height="352" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1588780727281" />
     <state width="1899" height="240" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1587659237793" />
     <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1587486761987">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -256,9 +303,10 @@
     </state>
     <state x="647" y="152" width="626" height="735" key="find.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588601425225" />
     <state x="2567" y="152" width="626" height="735" key="find.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1588596161459" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1588518413907">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1588778876759">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588518413907" />
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1588778876759" />
   </component>
 </project>
