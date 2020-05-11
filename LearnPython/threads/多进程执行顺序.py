@@ -12,7 +12,6 @@ def subPro(*args,**kwargs):
 *args 将参数打包成tuple
 **kwargs 打包关键字参数 dic
 '''
-
 if __name__ == "__main__":
     print(os.cpu_count(),"fff")
     print("main process begins")

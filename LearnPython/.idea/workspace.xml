@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6d572a9-dfd0-4bec-8152-8df4c998ccd5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/threads/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/threads/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/threads/threads.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/threads/单任务.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/threads/多任务.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/threads/多进程执行顺序.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threads/threadlocal.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/threads/多进程执行顺序.py" beforeDir="false" afterPath="$PROJECT_DIR$/threads/多进程执行顺序.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,8 +211,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.threads" />
-        <item itemvalue="Python.多进程执行顺序" />
-        <item itemvalue="Python.多任务" />
         <item itemvalue="Python.单任务" />
         <item itemvalue="Python.permutationAndCombination" />
       </list>
