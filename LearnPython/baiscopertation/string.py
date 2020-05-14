@@ -37,3 +37,14 @@ for row in range(1,10):
         print("{} * {} = {}".format(row,col,row*col),end="  ")# end = "" java print() println()
     print()
 
+str= "today is good day"
+print(str.startswith('t'))
+print(str.endswith('day'))
+print(str.encode())
+print(str.isalpha())
+print("Str Hello".istitle())#单词的首字母是否大写
+print("af32 d""".isalnum())
+print("11.11".isdigit())
+print("11.11".isnumeric())
+print("11.11".isdecimal())
+print(" ".isspace())
